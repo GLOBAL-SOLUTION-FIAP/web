@@ -43,104 +43,225 @@
                 </a>
             </nav>
         </header>
-   <footer class="footer">
-            <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 1200 100" preserveAspectRatio="none">
-                <path class="footer-onda-path"
-                    d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
-            </svg>
-            <div class="footer-content">
-                <div class="footer-content-column">
-                    <div class="footer-logo">
-                        <a class="footer-logo-link" href="#">
-                            <a href="#" class="brand">Bora Passar Fome</a>
-                            <span class="hidden-link-text">
-                                <a href="#" class="brand">Bora Passar Fome</a>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                <div class="footer-content-column">
-                    <div class="footer-menu">
-                        <h2 class="footer-menu-name">Integrantes</h2>
-                        <ul class="footer-menu-list">
-                            <li
-                                class="menu-item">
-                                <a href="https://github.com/gui1535" target="_blank">
-                                    Guilherme
-                                </a>
-                            </li>
-                            <li
-                                class="menu-item">
-                                <a href="https://github.com/sososdev" target="_blank">
-                                    Soraia
-                                </a>
-                            </li>
-                            <li
-                                class="menu-item">
-                                <a href="https://github.com/mathferreiraa" target="_blank">
-                                    Matheus
-                                </a>
-                            </li>
-                            <li
-                                class="menu-item">
-                                <a href="https://github.com/dudaolidev" target="_blank">
-                                    Maria
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="https://github.com/isatatajuba" target="_blank">
-                                    Isadora
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer-content-column">
-                    <div class="footer-menu">
-                        <h2 class="footer-menu-name">Links Úteis</h2>
-                        <ul class="footer-menu-list">
 
-                            <li class="menu-item">
-                                <a href="agricultura-sustentavel.html">
-                                    Agricultura Sustentável
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="ias-generativas.html">
-                                    IAs generativas
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="cultivos-eficientes.html">
-                                    Cultivos Eficientes
-                                </a>
-                            </li>
-                        </ul>
+        <main>
+            <div class="form-main-content">
+                <div class="form-content">
+                    <form action="#" method="POST">
+                        <label
+                            class="form-label form-label-2">
+                            Meus Dados
+                        </label>
+                        <div class="form-mb-5">
+                            <label for="name" class="form-label">
+                                Nome Completo
+                            </label>
+                            <input required
+                                type="text"
+                                placeholder="Nome Completo" />
+                        </div>
+                        <div class="form-mb-5">
+                            <label for="telefone" class="form-label">
+                                Telefone
+                            </label>
+                            <input
+                                type="text"
+                                id="telefone" required
+                                placeholder="(XX) XXXXX-XXXX" />
+                        </div>
+                        <div class="form-mb-5">
+                            <label for="email" class="form-label">
+                                Email
+                            </label>
+                            <input
+                                type="email"
+                                name="email"
+                                id="email" required
+                                placeholder="Email" />
+                        </div>
+                        <div class="form-mb-5 form-pt-3">
+                            <label
+                                class="form-label form-label-2">
+                                Endereço
+                            </label>
+                            <div class="flex flex-wrap form-margin">
+                                <div class="w-35 form-px-3">
+                                    <div class="form-mb-5">
+                                        <input required
+                                            type="text"
+                                            id="cep"
+                                            placeholder="CEP" />
+                                    </div>
+                                </div>
+                                <div class="w-65 form-px-3">
+                                    <div class="form-mb-5">
+                                        <input required
+                                            type="text"
+                                            id="logradouro"
+                                            placeholder="Logradouro" />
+                                    </div>
+                                </div>
+                                <div class="w-50 form-px-3">
+                                    <div class="form-mb-5">
+                                        <input required
+                                            type="text"
+                                            id="bairro"
+                                            placeholder="Bairro" />
+                                    </div>
+                                </div>
+                                <div class="w-50 form-px-3">
+                                    <div class="form-mb-5">
+                                        <input required
+                                            type="text"
+                                            id="estado"
+                                            placeholder="Estado" />
+                                    </div>
+                                </div>
+                                <div class="w-100 form-px-3">
+                                    <div class="form-mb-5">
+                                        <input
+                                            type="text"
+                                            id="complemento"
+                                            placeholder="Complemento" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-mb-5 form-pt-3">
+                            <label
+                                class="form-label form-label-2">
+                                Contato
+                            </label>
+                            <div class="form-mb-5">
+                                <label for="name" class="form-label">
+                                    Assunto
+                                </label>
+                                <input required
+                                    type="text"
+                                    placeholder="Assunto" />
+                            </div>
+                            <div class="form-mb-5">
+                                <label for="name" class="form-label">
+                                    Mensagem
+                                </label>
+                                <textarea required rows="4"></textarea>
+                            </div>
+                            <div class="form-action">
+                                <button class="btn btn-green btn-inline">
+                                    Enviar
+                                </button>
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <div class="footer-content-column">
-                    <div class="footer-call-to-action">
-                        <h3 class="footer-call-title">Vamos conversar</h3>
-                        <p class="footer-call-description">
-                            Entre em contato
+            </main>
+
+            <footer class="footer">
+                <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 1200 100" preserveAspectRatio="none">
+                    <path class="footer-onda-path"
+                        d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
+                </svg>
+                <div class="footer-content">
+                    <div class="footer-content-column">
+                        <div class="footer-logo">
+                            <a class="footer-logo-link" href="#">
+                                <a href="#" class="brand">Bora Passar Fome</a>
+                                <span class="hidden-link-text">
+                                    <a href="#" class="brand">Bora Passar Fome</a>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-content-column">
+                        <div class="footer-menu">
+                            <h2 class="footer-menu-name">Integrantes</h2>
+                            <ul class="footer-menu-list">
+                                <li
+                                    class="menu-item">
+                                    <a href="https://github.com/gui1535"
+                                        target="_blank">
+                                        Guilherme
+                                    </a>
+                                </li>
+                                <li
+                                    class="menu-item">
+                                    <a href="https://github.com/sososdev"
+                                        target="_blank">
+                                        Soraia
+                                    </a>
+                                </li>
+                                <li
+                                    class="menu-item">
+                                    <a href="https://github.com/mathferreiraa"
+                                        target="_blank">
+                                        Matheus
+                                    </a>
+                                </li>
+                                <li
+                                    class="menu-item">
+                                    <a href="https://github.com/dudaolidev"
+                                        target="_blank">
+                                        Maria
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="https://github.com/isatatajuba"
+                                        target="_blank">
+                                        Isadora
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-content-column">
+                        <div class="footer-menu">
+                            <h2 class="footer-menu-name">Links Úteis</h2>
+                            <ul class="footer-menu-list">
+
+                                <li class="menu-item">
+                                    <a href="agricultura-sustentavel.html">
+                                        Agricultura Sustentável
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="ias-generativas.html">
+                                        IAs generativas
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="cultivos-eficientes.html">
+                                        Cultivos Eficientes
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-content-column">
+                        <div class="footer-call-to-action">
+                            <h3 class="footer-call-title">Vamos conversar</h3>
+                            <p class="footer-call-description">
+                                Entre em contato
+                            </p>
+                            <a class="footer-call-button"
+                                href="contato.html">
+                                Contato
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="footer-copyright-wrapper">
+                        <p class="footer-copyright-text">
+                            ©2023 | Design feito por Brainy Coders | Todos
+                            direitos
+                            reservados.
                         </p>
-                        <a class="footer-call-button"
-                            href="contato.html">
-                            Contato
-                        </a>
                     </div>
                 </div>
-            </div>
-            <div class="footer-copyright">
-                <div class="footer-copyright-wrapper">
-                    <p class="footer-copyright-text">
-                        ©2023 | Design feito por Brainy Coders | Todos direitos
-                        reservados.
-                    </p>
-                </div>
-            </div>
-        </footer>
-        <script src="js/main.js"></script>
-    </body>
-</html>
+            </footer>
+            <script src="js/main.js"></script>
+            <script src="js/maks.input.js"></script>
+            <script src="js/busca_cep.js"></script>
+        </body>
+    </html>
