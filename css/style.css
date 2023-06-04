@@ -88,6 +88,46 @@ video {
 }
 
 /**
+ * ########################################
+ * #               ELEMENTS               #
+ * ########################################
+ */
+.pt-1 {
+  padding-top: 0.5rem !important;
+}
+
+.pt-2 {
+  padding-top: 1rem !important;
+}
+
+.pt-3 {
+  padding-top: 1.5rem !important;
+}
+
+.pt-4 {
+  padding-top: 2rem !important;
+}
+
+.pt-5 {
+  padding-top: 2.5rem !important;
+}
+
+.pt-6 {
+  padding-top: 3rem !important;
+}
+
+.pb-1 {
+  padding-bottom: 0.5rem !important;
+}
+
+.pb-2 {
+  padding-bottom: 1rem !important;
+}
+
+.pb-3 {
+  padding-bottom: 1.5rem !important;
+}
+/**
  * #######################################
  * #               SECTION               #
  * #######################################
@@ -548,6 +588,12 @@ video {
   margin-right: 10px;
   filter: grayscale(100%);
 }
+
+/**
+ * #######################################
+ * #                ABOUT                #
+ * #######################################
+ */
 .about-column {
   position: relative;
   display: grid;
@@ -566,7 +612,7 @@ video {
   .about-column {
     grid-template-columns: 1fr max-content;
     column-gap: 4rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
 }
 
@@ -773,7 +819,6 @@ video {
   margin-top: 0;
 }
 
-
 /* Media Query For different screens */
 @media (min-width: 320px) and (max-width: 479px) {
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
@@ -822,4 +867,41 @@ video {
   .footer-content-column {
     width: 24.99%;
   }
+}
+
+/**
+ * ##################################################
+ * #   SEGURANÇA ALIMENTAR E AGRICULTURA FAMILIAR   #
+ * ##################################################
+ */
+
+.seguranca-agricultura-alimentar {
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 5rem 0 1rem;
+}
+
+/**
+ * #################################################
+ * #                     IDEAS                     #
+ * #################################################
+ */
+
+.ideas {
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 5rem 0 1rem;
+}
+
+.ideas div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ideas h5 {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
 }

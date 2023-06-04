@@ -2,7 +2,7 @@ const navbarMenu = document.getElementById("menu");
 const burgerMenu = document.getElementById("burger");
 const headerMenu = document.getElementById("header");
 
-// Open Close Navbar Menu on Click Burger
+// Abrir/Fechar Menu da barra de navegação no Click Burger
 if (burgerMenu && navbarMenu) {
    burgerMenu.addEventListener("click", () => {
       burgerMenu.classList.toggle("is-active");
@@ -10,7 +10,7 @@ if (burgerMenu && navbarMenu) {
    });
 }
 
-// Close Navbar Menu on Click Menu Links
+// Fechar o menu da barra de navegação ao clicar nos links do menu
 document.querySelectorAll(".menu-link").forEach((link) => {
    link.addEventListener("click", () => {
       burgerMenu.classList.remove("is-active");
@@ -18,7 +18,7 @@ document.querySelectorAll(".menu-link").forEach((link) => {
    });
 });
 
-// Change Header Background on Scrolling
+// Alterar plano de fundo do header ao rolar
 window.addEventListener("scroll", () => {
    if (this.scrollY >= 85) {
       headerMenu.classList.add("on-scroll");
@@ -27,7 +27,7 @@ window.addEventListener("scroll", () => {
    }
 });
 
-// Fixed Navbar Menu on Window Resize
+// Menu da barra de navegação corrigido no redimensionamento da janela
 window.addEventListener("resize", () => {
    if (window.innerWidth > 768) {
       if (navbarMenu.classList.contains("is-active")) {
