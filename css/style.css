@@ -905,3 +905,16 @@ video {
   color: var(--color-primary);
   margin-bottom: 1rem;
 }
+
+
+/**
+ * #################################################
+ * #     DESAFIOS E RESPONSABILIDADES DAS IAGs     #
+ * #################################################
+ */
+
+.desafios-responsabilidades-iags {
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 5rem 0 1rem;
+}
