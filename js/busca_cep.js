@@ -17,6 +17,10 @@ function preencheDados(response = {}) {
     document.getElementById('bairro').value = response.bairro || "";
     document.getElementById('estado').value = response.uf || "";
     document.getElementById('complemento').value = response.complemento || "";
+
+    if (!response.cep) {
+        alert("Cep não encontrado!")
+    }
 }
 
 
@@ -29,7 +33,7 @@ function buscaCep(cep) {
             preencheDados(data);
         })
         .catch(error => {
-            alert("Cep não encontrado!")
             preencheDados();
+            console.error(error)
         });
 }

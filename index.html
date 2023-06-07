@@ -6,12 +6,12 @@
         <link rel="stylesheet"
             href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
         <link rel="stylesheet" href="css/style.css">
-        <title>Bora Passar Fome</title>
+        <title>AssisFarm</title>
     </head>
     <body>
         <header class="header" id="header">
             <nav class="navbar container">
-                <a href="index.html" class="brand">Bora Passar Fome</a>
+                <a href="index.html" class="brand">AssisFarm</a>
                 <div class="burger" id="burger">
                     <span class="burger-line"></span>
                     <span class="burger-line"></span>
@@ -51,13 +51,14 @@
                     alt="banner">
                 <div class="banner-inner">
                     <h1 class="heading-xl">
-                        Passando Fome hoje e sempre
+                        Agrointeligência e Apoio Humanitário
                     </h1>
                     <p class="paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Eius doloribus omnis dicta. Molestias fugit
-                        saepe tempore vero, corrupti nobis at aliquam? Quod
-                        quasi.
+                        Um assistente virtual para agricultura
+                        inteligente e apoio humanitário, oferecendo suporte
+                        personalizado no manejo de pragas, previsões
+                        meteorológicas e otimização da distribuição de
+                        alimentos.
                     </p>
                     <a href="#about">
                         <button class="btn btn-green btn-inline">
@@ -101,23 +102,25 @@
                     alt="banner">
                 <div class="about-inner">
                     <h2 class="heading-md">
-                        Sobre nós
+                        Sobre
                     </h2>
                     <br>
                     <p class="paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Repudiandae deserunt a eligendi asperiores! Nostrum
-                        veniam deserunt esse voluptate, placeat quidem ex
-                        aliquid sequi delectus suscipit modi totam beatae
-                        deleniti illum eveniet velit error autem labore minima
-                        deleniti illum eveniet velit error autem labore minima
-                        nam vero amet obcaecati.
+                        AssisFarm é o seu assistente virtual completo para
+                        agricultura inteligente e apoio humanitário. Com
+                        recursos avançados de processamento de linguagem natural
+                        e integração com sistemas de previsão meteorológica, o
+                        AssisFarm oferece suporte personalizado e orientação
+                        especializada aos agricultores. Desde o manejo eficiente
+                        de pragas até informações precisas sobre as condições
+                        climáticas e a umidade do solo, o AssisFarm fornece as
+                        ferramentas necessárias para otimizar as práticas
+                        agrícolas.
                     </p>
                 </div>
             </div>
         </section>
 
-        
         <footer class="footer">
             <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 1200 100" preserveAspectRatio="none">
@@ -128,9 +131,9 @@
                 <div class="footer-content-column">
                     <div class="footer-logo">
                         <a class="footer-logo-link" href="#">
-                            <a href="#" class="brand">Bora Passar Fome</a>
+                            <a href="#" class="brand">AssisFarm</a>
                             <span class="hidden-link-text">
-                                <a href="#" class="brand">Bora Passar Fome</a>
+                                <a href="#" class="brand">AssisFarm</a>
                             </span>
                         </a>
                     </div>
@@ -221,6 +224,31 @@
                 </div>
             </div>
         </footer>
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+
+<script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "ffe22ea2-1c63-4dc7-8cf0-a856632a4221", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "e2897fb1-6353-4d3e-b6b4-40530d18d351", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
         <script src="js/main.js"></script>
     </body>
 </html>

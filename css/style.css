@@ -340,7 +340,7 @@ video {
   font-weight: 600;
   line-height: 1.5;
   letter-spacing: -1px;
-  color: var(--color-green-quaternary);
+  color: var(--color-black-secondary);
   text-transform: uppercase;
 }
 
@@ -714,6 +714,10 @@ video {
   position: relative;
 }
 
+footer .brand {
+  color: white !important;
+}
+
 .footer-content-column {
   box-sizing: border-box;
   float: left;
@@ -990,11 +994,11 @@ video {
   display: block;
   font-weight: 500;
   font-size: 16px;
-  color: #07074d;
+  color: var(--color-primary);
   margin-bottom: 12px;
 }
 .form-label-2 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   margin-bottom: 20px;
 }
@@ -1013,7 +1017,7 @@ form textarea {
   resize: vertical;
 }
 form input:focus {
-  border-color: #6a64f1;
+  border-color: var(--color-quaternary);
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
